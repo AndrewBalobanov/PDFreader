@@ -86,7 +86,7 @@ def write(outpath, dict_to_write):
     styler(outpath)
 
 
-def frame_list_to_sict(list_to_write):
+def frame_list_to_dict(list_to_write):
     dict_to_write = {}
 
     for i in range(len(list_to_write)):

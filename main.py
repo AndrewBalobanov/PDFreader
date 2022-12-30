@@ -17,7 +17,7 @@ def main_prg(path):
         list_to_write.append(main_frame)
         list_to_write.append(crop_frame)
 
-        dict_to_write = af.frame_list_to_sict(list_to_write)
+        dict_to_write = af.frame_list_to_dict(list_to_write)
 
         #########################################################
         af.write(outpath, dict_to_write)
